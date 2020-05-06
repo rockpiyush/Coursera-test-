@@ -1,0 +1,90 @@
+	
+
+
+h1 {
+	margin: 30px;
+	text-align: center;
+}
+
+body {
+	font-family: zapf Chancery,cursive;
+	;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+}
+
+#section {
+	border: 2px solid black;
+	margin: 2%;
+	text-align: right;
+	background-color: gray;
+	float: left;
+	padding-left: 10px;
+		
+}
+
+p {
+	text-align: left;
+}
+
+
+#sec-1 {
+	border-style: box-border;
+	border: 2px solid black;
+	border-right: 2px;
+	text-align: right;
+	margin-top: 0px;
+	background-color: pink;
+
+	padding-right: 40px;
+	padding-left: 40px;
+
+}
+
+#sec-2 {
+	border-style: box-border;
+	border: 2px solid black;
+	border-right: 2px;
+	text-align: right;
+	margin-top: 0px;
+	background-color: maroon;
+
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#sec-3 {
+	border-style: box-border;
+	border: 2px solid black;
+	border-right: 2px;
+	text-align: right;
+	margin-top: 0px;
+	background-color: yellow;
+
+	padding-right: 40px;
+	padding-left: 40px;
+}
+@media (min-width: 992px) {
+	.large {
+		float: left;
+		width: 33.33%
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.medium {
+		float: left;
+		width: 50%
+	}
+}
+
+@media (max-width: 767px) {
+	.small {
+		width: 100%;
+	}
+}
